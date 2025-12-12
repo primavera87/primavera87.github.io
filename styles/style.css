@@ -165,15 +165,13 @@
 
 .save-button__icon {
   position: relative;
+  fill: var(--bg-color);
+  mix-blend-mode: difference;
   z-index: 1;
   width: 21px;
   height: 21px;
   display: block;
   transition: filter 0.3s ease;
-}
-
-.save-button:hover .save-button__icon {
-  filter: brightness(0) invert(1);
 }
 
 /* Общие стили для кнопок */
