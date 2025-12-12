@@ -180,7 +180,7 @@
 }
 
 
-.save-button__icon svg {
+.save-button__icon {
   position: relative;
   z-index: 1;
   fill: var(--accent-color);
