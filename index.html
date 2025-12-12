@@ -4,6 +4,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Закрывающий тег</title>
+    <link rel="icon" href="./images/favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="./svg/favicon.svg" type="image/svg" />
+    <link rel="apple-touch-icon" href="./images/favicon.png" />
     <link rel="stylesheet" href="./fonts/fonts.css" />
     <link rel="stylesheet" href="./styles/variables.css" />
     <link rel="stylesheet" href="./styles/globals.css" />
@@ -273,9 +276,7 @@
   </article>
   <div class="save-button-wrapper">
     <button type="button" class="save-button button" onclick="document.getElementById('save-dialog').showModal()">
-      <svg class="save-button__icon" viewBox="0 0 39 39">
-        <use href="./svg/floppy.svg#floppy"></use>
-      </svg>
+      <img class="save-button__icon" src="./svg/floppy.svg" alt="Сохранить">  
       <span class="save-button-text">Сохранить на память</span>
     </button>
   </div>
@@ -284,7 +285,7 @@
   <div class="modal__content">
     <div class="modal__columns">
       <div class="modal__column">
-        <img src="./svg/floppy.svg" alt="Save" class="save-button__icon">
+        <img width="39" height="39" src="./svg/floppy.svg" alt="Save" class="modal__icon">
       </div>
       <div class="modal__column">
         <p class="modal__text">вставьте дискету, чтобы продолжить</p>

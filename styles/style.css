@@ -183,14 +183,17 @@
 .save-button__icon {
   position: relative;
   z-index: 1;
-  fill: var(--accent-color);
-  mix-blend-mode: difference;
   width: 21px;
   height: 21px;
   margin-right: 9px;
   margin-left: 11px;
+  display: block;
+  transition: filter 0.3s ease;
 }
 
+.save-button:hover .save-button__icon {
+  filter: brightness(0) invert(1);
+}
 
 /* Общие стили для кнопок */
 
@@ -258,7 +261,6 @@
 .modal__columns {
   display: flex;
   align-items: center;
-  gap: 12px;
   margin-bottom: 30px;
 }
 
