@@ -165,7 +165,7 @@
 
 .save-button__icon {
   position: relative;
-  fill: var(--bg-color);
+  color: var(--bg-color);
   mix-blend-mode: difference;
   z-index: 1;
   width: 21px;
