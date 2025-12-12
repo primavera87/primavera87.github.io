@@ -4,4 +4,4 @@ https://github.com/primavera87/zakrivayuschiy-teg-f
 
 Ссылка на github.io
 
-https://primavera87.github.io/
+https://primavera87.github.io/zakrivayuschiy-teg-f/
