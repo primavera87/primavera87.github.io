@@ -242,6 +242,8 @@
 .modal__icon {
   margin: 12px 20px 12px 0;
   color: var(--accent-color);
+  width: 39px;
+  height: 39px;
 }
 
 .modal__columns {
