@@ -241,6 +241,7 @@
 
 .modal__icon {
   margin: 12px 20px 12px 0;
+  color: var(--accent-color);
 }
 
 .modal__columns {
@@ -303,10 +304,10 @@
   filter: hue-rotate(90deg) contrast(0.4) saturate(1.5) blur(2px);
 }
 
-@supports ((text-stroke: 0.5px var(--stroke-color)) or (-webkit-text-stroke: 0.5px var(--stroke-color))) {
+@supports ((text-stroke: 1px var(--stroke-color)) or (-webkit-text-stroke: 1px var(--stroke-color))) {
   .card__label {
-    -webkit-text-stroke: 0.5px var(--stroke-color);
-    text-stroke: 0.5px var(--stroke-color);
+    -webkit-text-stroke: 1px var(--stroke-color);
+    text-stroke: 1px var(--stroke-color);
     text-shadow: none;
   }
 }
